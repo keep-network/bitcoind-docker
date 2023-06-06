@@ -1,0 +1,24 @@
+= Bitcoin Core Full Node
+
+This is Dockerfile for Bitcoin Core full node application (`bitcoind`).
+
+== Bitcoin
+
+- RPC API: https://developer.bitcoin.org/reference/rpc/
+
+== Docker
+
+Dockerfile is based on:
+
+- https://github.com/kylemanna/docker-bitcoind
+- https://github.com/keep-network/local-setup/tree/main/bitcoin
+
+=== List of Bitcoin node versions
+
+https://bitcoincore.org/bin/
+
+=== Docker Registry
+
+We are using Docker Hub for storing images.
+
+https://hub.docker.com/r/keepnetwork/bitcoind
